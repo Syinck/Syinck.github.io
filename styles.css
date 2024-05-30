@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+#present {
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    border: 5px solid #333;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+#present:hover {
+    transform: scale(1.05);
+}
+
+#message {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
